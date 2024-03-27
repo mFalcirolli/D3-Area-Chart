@@ -1,0 +1,23 @@
+rect {
+    pointer-events: all;
+    fill-opacity: 0;
+    stroke-opacity: 0;
+    z-index: 1;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: 0px solid white;
+    border-radius: 0px;
+    display: none;
+    opacity: .75;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.tooltip-line {
+    stroke-opacity: 0.5;
+} 
